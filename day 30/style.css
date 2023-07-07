@@ -1,3 +1,26 @@
+
+
+@media screen and (max-width: 600px) {
+    #country {
+      width: 350px;
+      height: 250px;
+    }
+    .imgc {
+      width: 250px;
+      height: 200px;
+    }
+    .imgc > img {
+      width: 100%;
+      height: 100%;
+    }
+    /* .main > input {
+      width: 350px;
+    } */
+  }
+
+
+
+
 #sectionone {
     text-align: center;
     margin: auto;
@@ -15,9 +38,6 @@
 h2 {
 
     color: aliceblue;
-}
-.name{
-    color: yellow;
 }
 h1 {
     font-size: 60px;
@@ -39,15 +59,15 @@ div {
 
     display: grid;
     /* margin: auto; */
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto ;
 }
 
 
-/* img{
-    width: 90px;
-    height: 30px;
+img{
+    width: 150px;
+    height: 100px;
 
-} */
+}
 
 .filterbutton:hover  {
 
@@ -68,6 +88,15 @@ input {
     border-radius: 50px;
 
 }
+#country {
+    width: 250px;
+    height: 200px;
+    border-radius: 2px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
 #searchbtn {
     border-color: cornflowerblue;
